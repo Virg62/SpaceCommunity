@@ -1,0 +1,83 @@
+/* Définition des variables */
+:root {
+    --title-color: #171738;
+    --title-background: rgba(0, 0, 0, 0.55);
+    --border-radius: 3.5px;
+}
+
+/* Styles */
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    letter-spacing: 0.1em;
+}
+
+.welcome-container {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("../img/welcome_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.high-maj {
+    font-weight: inherit;
+    font-size: 16pt !important;
+}
+
+.title {
+    margin: 0px;
+    display: inline-block;
+    color: #fff;
+    text-transform : uppercase;
+    letter-spacing: 0.2em;
+    font-size: 14pt;
+}
+
+.small-title {
+    font-size: 13pt !important;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.right {
+    float: right;
+    margin-right: 2vw;
+}
+
+.logo {
+    color: #fff;
+    font-size: 16pt;
+    transform: rotate(-45deg);
+    margin-right: 7.5px;
+    vertical-align: top;
+}
+
+.bar-menu {
+    padding-top: 5vh;
+    padding-left: 5.5vw;
+    padding-right: 2.5vw;
+}
+
+.quote {
+    position: relative;
+    width: 65%;
+    margin: auto;
+    top: 35vh;
+    padding: 10px 15px;
+    border-radius: var(--border-radius);
+    font-weight: 300;
+    color: #fff;
+    background-color: var(--title-background);
+}
+/* Animations */
