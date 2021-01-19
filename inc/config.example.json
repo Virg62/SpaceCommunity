@@ -1,7 +1,8 @@
 {
-	"database":{
-		"login":"user",
-		"password":"password",
+	"database": {
+		"login":"test",
+		"password":"test",
+		"database" : "test",
 		"host":"localhost"
 	}
 }
