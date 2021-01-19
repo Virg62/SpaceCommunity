@@ -1,0 +1,7 @@
+{
+	"database":{
+		"login":"user", // votre nom d'utilisateur de base de données
+		"password":"password", // votre mot de passe de base de données
+		"host":"localhost" // l'hôte de votre base de données
+	}
+}
