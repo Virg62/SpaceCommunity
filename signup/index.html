@@ -27,13 +27,28 @@
             <a href="" class="link right">S'inscrire</a>
         </div>
 
-        <form action="" method="POST" class="">
-            <input type="textfield" />
-            <input type="textfield" />
-            <input type="textfield" />
-            <input type="textfield" />
-            <input type="textfield" />
-            <input type="textfield" />
+        <form action="" method="POST" class="floating-form">
+            <p class="title small-title">Inscription</p>
+            <hr style="margin-bottom: 20px;" />
+            <p class="hint" for="surname">Prénom</p>
+            <input type="text" class="field" id="surname" autocomplete="off" />
+            
+            <p class="hint" for="name">Nom</p>
+            <input type="text" class="field" id="name" autocomplete="off" />
+            
+            <p class="hint" for="username">Nom d'utilisateur</p>
+            <input type="text" class="field" id="username" autocomplete="off" />
+            
+            <p class="hint" for="email">Email</p>
+            <input type="email" class="field" id="email" required autocomplete="off" />
+            
+            <p class="hint" for="pass1">Mot de passe</p>
+            <input type="password" class="field" id="pass1" autocomplete="off" />
+            
+            <p class="hint" for="pass2">Confirmation</p>
+            <input type="password" class="field" id="pass2" autocomplete="off" />
+
+            <button type="submit" class="btn"><i class="fas fa-check" style="font-size: smaller;"></i> Valider</button>
         </form>
     </div>
 

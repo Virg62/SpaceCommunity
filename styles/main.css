@@ -1,6 +1,7 @@
 /* Définition des variables */
 :root {
     --title-color: #171738;
+    --primary-color: #1140da;
     --title-background: rgba(0, 0, 0, 0.55);
     --border-radius: 3.5px;
 }
@@ -29,6 +30,7 @@ html, body {
 .high-maj {
     font-weight: inherit;
     font-size: 16pt !important;
+    text-transform: uppercase;
 }
 
 .title {
@@ -80,4 +82,53 @@ html, body {
     color: #fff;
     background-color: var(--title-background);
 }
+
+.floating-form {
+    position: relative;
+    top: 15vh;
+    width: 27.5vw;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+    border-radius: var(--border-radius);
+    padding: 10px 15px;
+}
+
+.floating-form .title {
+    color: var(--title-color);
+    letter-spacing: 0.1em !important;
+    text-transform: none !important;
+    font-size: 18pt !important;
+}
+
+.hint {
+    margin: 0px;
+    font-size: 10pt;
+}
+
+.field {
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 0px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.field:focus, .field:active {
+    border-bottom-color: var(--primary-color);
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 0px;
+    border-radius: var(--border-radius);
+    font-size: 16pt;
+    letter-spacing: 0.105em;
+}
+
 /* Animations */
