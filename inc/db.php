@@ -8,7 +8,7 @@ try {
     $db_cfg = $json["database"];
 
     $user = $db_cfg["login"];
-    $pass = $db_cfg["password"]
+    $pass = $db_cfg["password"];
 
     $dbh = new PDO('mysql:host='. $db_cfg["host"] .';dbname=' . $db_cfg["database"], $user, $pass);
     
